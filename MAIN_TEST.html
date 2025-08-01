@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flair Cleaning Services</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Flair Cleaning Services Logo" id="logo" />
+    <h1 id="business-name">Flair Cleaning Services</h1>
+    <div class="contact-info">
+      Email: <span id="email">xxxx@outlook.com</span> |
+      Phone: <span id="phone">905-424-xxxx</span>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Residential Cleaning</h3>
+        <p>From kitchens to bedrooms, we make your home shine.</p>
+      </div>
+      <div class="service-card">
+        <h3>Commercial Cleaning</h3>
+        <p>Clean and healthy workspaces to boost productivity.</p>
+      </div>
+      <div class="service-card">
+        <h3>Move-in/Move-out</h3>
+        <p>Leave no mess behind with our detailed clean-up services.</p>
+      </div>
+      <div class="service-card">
+        <h3>Deep Cleaning</h3>
+        <p>In-depth cleaning services for every corner of your space.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <strong id="email-2">xxxxx@outlook.com</strong></p>
+    <p>Phone: <strong id="phone-2">905-424-xxxx</strong></p>
+    <p>We're happy to provide a free estimate and answer any questions!</p>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Flair Cleaning Services. All rights reserved.
+  </footer>
+
+  <script>
+    // Auto-update year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
